@@ -61,3 +61,9 @@ else{
  console.log("Sorry, the movie " + movie.title + " is sold out.")
  }
 };
+
+var fruits = []
+for (i=1;i<10;i++){
+  fruits[i]=prompt("enter fruits");
+}
+alert("fruits contains " + fruits);
